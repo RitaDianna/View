@@ -29,6 +29,16 @@
 		F3F0FD0E2E7FEAE10053489A /* ViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F3F0FD6B2E7FEFA90053489A /* Exceptions for "Module" folder in "View" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				eventManage.m,
+			);
+			target = F3F0FCEB2E7FEAE00053489A /* View */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		F3F0FD072E7FEAE10053489A /* ViewTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
@@ -43,6 +53,14 @@
 		F3F0FD3F2E7FEB270053489A /* View */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = View;
+			sourceTree = "<group>";
+		};
+		F3F0FD642E7FEF690053489A /* Module */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F3F0FD6B2E7FEFA90053489A /* Exceptions for "Module" folder in "View" target */,
+			);
+			path = Module;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +93,7 @@
 		F3F0FCE32E7FEAE00053489A = {
 			isa = PBXGroup;
 			children = (
+				F3F0FD642E7FEF690053489A /* Module */,
 				F3F0FD3F2E7FEB270053489A /* View */,
 				F3F0FD072E7FEAE10053489A /* ViewTests */,
 				F3F0FD112E7FEAE10053489A /* ViewUITests */,
@@ -509,7 +528,7 @@
 				F3F0FD172E7FEAE10053489A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		F3F0FD182E7FEAE10053489A /* Build configuration list for PBXNativeTarget "View" */ = {
 			isa = XCConfigurationList;
@@ -518,7 +537,7 @@
 				F3F0FD1A2E7FEAE10053489A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		F3F0FD1B2E7FEAE10053489A /* Build configuration list for PBXNativeTarget "ViewTests" */ = {
 			isa = XCConfigurationList;
@@ -527,7 +546,7 @@
 				F3F0FD1D2E7FEAE10053489A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		F3F0FD1E2E7FEAE10053489A /* Build configuration list for PBXNativeTarget "ViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,7 +555,7 @@
 				F3F0FD202E7FEAE10053489A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
